@@ -1,0 +1,31 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:fontFamily="sans-serif-light"
+            android:text="DESKRIPSI" />
+
+        <View android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#bbbb"/>
+<!--
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/dividerHorizontal" />-->
+
+        <TextView
+            android:id="@+id/deskripsi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:textColor="#8a000000" />
+
+    </LinearLayout>

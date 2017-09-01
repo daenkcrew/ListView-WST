@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFFF"
+    android:padding="16sp"
+    android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16sp"
+            android:fontFamily="sans-serif-light"
+            android:text="INFORMASI" />
+
+        <View android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#bbbb"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/nama"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="@dimen/global_spacing_l"
+                android:paddingLeft="@dimen/fragment_poi_detail_info_item_padding"
+                android:paddingRight="@dimen/global_spacing_xs"
+                android:paddingTop="@dimen/global_spacing_xxs"
+                android:paddingBottom="@dimen/global_spacing_xxs"
+                android:gravity="center_vertical"
+
+                android:drawablePadding="@dimen/fragment_poi_detail_info_item_padding"
+                android:textColor="#8a000000"
+                android:clickable="true"
+                android:focusable="true" />
+
+
+
+            <TextView
+                android:id="@+id/alamat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="@dimen/global_spacing_l"
+                android:paddingLeft="@dimen/fragment_poi_detail_info_item_padding"
+                android:paddingRight="@dimen/global_spacing_xs"
+                android:paddingTop="@dimen/global_spacing_xxs"
+                android:paddingBottom="@dimen/global_spacing_xxs"
+                android:gravity="center_vertical"
+                android:drawablePadding="@dimen/fragment_poi_detail_info_item_padding"
+                android:textColor="#8a000000"
+                android:maxLines="1"
+                android:ellipsize="end"
+                android:clickable="true"
+                android:focusable="true" />
+
+            <TextView
+                android:id="@+id/hp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="@dimen/global_spacing_l"
+                android:paddingLeft="@dimen/fragment_poi_detail_info_item_padding"
+                android:paddingRight="@dimen/global_spacing_xs"
+                android:paddingTop="@dimen/global_spacing_xxs"
+                android:paddingBottom="@dimen/global_spacing_xxs"
+                android:gravity="center_vertical"
+                android:drawablePadding="@dimen/fragment_poi_detail_info_item_padding"
+                android:textColor="#8a000000"
+                android:maxLines="1"
+                android:ellipsize="end"
+                android:clickable="true"
+                android:focusable="true" />
+
+            <TextView
+                android:id="@+id/email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="@dimen/global_spacing_l"
+                android:paddingLeft="@dimen/fragment_poi_detail_info_item_padding"
+                android:paddingRight="@dimen/global_spacing_xs"
+                android:paddingTop="@dimen/global_spacing_xxs"
+                android:paddingBottom="@dimen/global_spacing_xxs"
+                android:gravity="center_vertical"
+                android:drawablePadding="@dimen/fragment_poi_detail_info_item_padding"
+                android:textColor="#8a000000"
+                android:maxLines="1"
+                android:ellipsize="end"
+                android:clickable="true"
+                android:focusable="true" />
+
+            <TextView
+                android:id="@+id/website"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="@dimen/global_spacing_l"
+                android:paddingLeft="@dimen/fragment_poi_detail_info_item_padding"
+                android:paddingRight="@dimen/global_spacing_xs"
+                android:paddingTop="@dimen/global_spacing_xxs"
+                android:paddingBottom="@dimen/global_spacing_xxs"
+                android:gravity="center_vertical"
+                android:drawablePadding="@dimen/fragment_poi_detail_info_item_padding"
+                android:textColor="#8a000000"
+                android:maxLines="1"
+                android:ellipsize="end"
+                android:clickable="true"
+                android:focusable="true" />
+
+            <TextView
+                android:id="@+id/tiket"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="@dimen/global_spacing_l"
+                android:paddingLeft="@dimen/fragment_poi_detail_info_item_padding"
+                android:paddingRight="@dimen/global_spacing_xs"
+                android:paddingTop="@dimen/global_spacing_xxs"
+                android:paddingBottom="@dimen/global_spacing_xxs"
+                android:gravity="center_vertical"
+                android:drawablePadding="@dimen/fragment_poi_detail_info_item_padding"
+                android:textColor="#8a000000"
+                android:maxLines="1"
+                android:ellipsize="end"
+                android:clickable="true"
+                android:focusable="true" />
+
+            <TextView
+                android:id="@+id/latitude"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="@dimen/global_spacing_l"
+                android:paddingLeft="@dimen/fragment_poi_detail_info_item_padding"
+                android:paddingRight="@dimen/global_spacing_xs"
+                android:paddingTop="@dimen/global_spacing_xxs"
+                android:paddingBottom="@dimen/global_spacing_xxs"
+                android:gravity="center_vertical"
+                android:drawablePadding="@dimen/fragment_poi_detail_info_item_padding"
+                android:textColor="#8a000000"
+                android:maxLines="1"
+                android:ellipsize="end"
+                android:clickable="true"
+                android:focusable="true" />
+
+            <TextView
+                android:id="@+id/longitude"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="@dimen/global_spacing_l"
+                android:paddingLeft="@dimen/fragment_poi_detail_info_item_padding"
+                android:paddingRight="@dimen/global_spacing_xs"
+                android:paddingTop="@dimen/global_spacing_xxs"
+                android:paddingBottom="@dimen/global_spacing_xxs"
+                android:gravity="center_vertical"
+                android:drawablePadding="@dimen/fragment_poi_detail_info_item_padding"
+                android:textColor="#8a000000"
+                android:maxLines="1"
+                android:ellipsize="end"
+                android:clickable="true"
+                android:focusable="true" />
+
+        </LinearLayout>
+    </LinearLayout>
+
